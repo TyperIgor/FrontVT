@@ -7,28 +7,43 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Trabalhando com menu fixo e cabeçalho-->
     <header>
-        <nav id="menu">
-            <ul>
+        <nav>
+            <ul id="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Noticias</a></li>
-                <li><a href="#">Jogos</a></li>
+                <li><a href="#">Jogos</a>
+                    <ul>
+                        <li><a href="https://www.callofduty.com/br/pt/warzone" target="_blank">Call of Duty: Warzone</a></li>
+                        <li><a href="https://www.ea.com/pt-br/games/apex-legends" target="_blank">Apex Legends</a></li>
+                        <li><a href="https://www.pubg.com/pt-br/" target="_blank">PUBG</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <div class="banner">
-        <div class="banner-text">
-          <h1>FrontVT</h1>
-          <p>Isaque, Yuri and Igor</p>
-          <button>Sobre</button>
+    <!--Banner-->
+    <div class="container">
+        <div class="banner">
+            <img src="assets/imagens/banner.jpg" alt="bannerImg" class="image">
         </div>
     </div>
 
-
-
+    <!--Noticias entram aqui!-->
+    <div class="container">
+        <div class="noticias">
+            <div class="noticia1"></div>
+            <div class="noticia2"></div>
+            <div class="noticia3"></div>
+        </div>
+    </div>
+    <!--Rodapé-->
     <footer>
-        
+        <p>Professora Isabel</p>
+        <img src="assets/imagens/logoUniverso.png" alt="logoUniverso">
+        <p>Yuri,Igor e Isaque</p>
     </footer>
 </body>
 </html>
