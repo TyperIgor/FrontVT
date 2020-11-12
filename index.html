@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FrontVT</title>
     <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="imagem/png" href="assets/imagens/icon.png" />
 </head>
 <body>
     <!-- Trabalhando com menu fixo e cabeçalho-->
@@ -12,7 +13,7 @@
         <nav>
             <ul id="menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Noticias</a></li>
+                <li><a href="#titulo">Noticias</a></li>
                 <li><a href="#">Jogos</a>
                     <ul>
                         <li><a href="https://www.callofduty.com/br/pt/warzone" target="_blank">Call of Duty: Warzone</a></li>
@@ -34,11 +35,33 @@
     <!--Noticias entram aqui!-->
     <div class="container">
         <div class="noticias">
-            <div class="noticia1"></div>
-            <div class="noticia2"></div>
-            <div class="noticia3"></div>
+            <div id="titulo">Noticias</div>
+            <section class="container wrap">
+                <div class="conteudo">
+                    <img src="assets/imagens/conteudo1.jpg" alt="conteudo1">
+                    <i> - Apex Legends - </i>
+                    <h1>Conheça Olympus</h1>
+                    <p>Conheça a cidade nas nuvens antes de sua ascensão na Temporada 7.</p>
+                    <a href="https://www.ea.com/pt-br/games/apex-legends/news/season-7-olympus"><i> Leia mais...</i></a>
+                </div>
+                <div class="conteudo">
+                    <img src="assets/imagens/conteudo2.jpg" alt="conteudo2">
+                    <i> - PUBG - </i>
+                    <h1>Patch Notes 9.2</h1>
+                    <p>Fique por dentro das notas da atualização 9.2 com novos conteúdos, renovação, correção de bugs e mais...</p>
+                    <a href="https://www.pubg.com/pt-br/2020/11/11/notas-de-atualizacao-9-2-pc/"><i> Leia mais...</i></a>
+                </div>
+                <div class="conteudo">
+                    <img src="assets/imagens/conteudo3.jpg" alt="conteudo3">
+                    <i> - Call of Duty - </i>
+                    <h1>BLACK OPS COLD WAR</h1>
+                    <p>Black Ops Cold War marca o retorno épico a uma das séries de videogame mais emocionantes e inesquecíveis de todos os tempos.</p>
+                    <a href="https://news.blizzard.com/pt-br/blizzard/23557604/bem-vindo-a-call-of-duty-black-ops-cold-war"><i> Leia mais...</i></a>
+                </div>
+            </section>
         </div>
     </div>
+    
     <!--Rodapé-->
     <footer>
         <p>Professora Isabel</p>
